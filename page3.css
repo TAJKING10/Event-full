@@ -1,0 +1,260 @@
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: 'DM Sans', sans-serif; 
+
+        }
+
+        main{
+            height:fit-content;
+        }
+        header {
+            position: relative;
+            height: 70vh;
+            overflow: hidden;
+            background: linear-gradient(to bottom, rgba(110, 103, 219, 0.694) 50%, rgba(0, 0, 0, 0.5) 100%)
+        }
+  
+.row-header{
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    flex-direction: row;
+}
+.left-image {
+    width: 45%; 
+    height: 25%;
+    position: relative;
+}
+
+.container {
+    position: relative;
+    text-align: center; 
+}
+
+.container h2 {
+    margin-bottom:50px;
+    text-align: right;
+    color: #fff;
+    font-size: 40px;
+}
+
+.header-button {
+    background-color: rgb(19, 20, 57);
+    border: none;
+    color: white;
+    padding: 17px 29px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px; /* Adjusted margin */
+    margin-bottom: 30px; /* Adjusted margin */
+    align-self: flex-end;
+}
+
+
+
+footer{
+        height: 30vh;
+        position: relative;
+        background-color:rgb(19, 20, 57);
+
+        }
+         .f_title{
+            position: absolute;
+            left:100px;
+            bottom: 50px;
+            font-size: 30px;
+            color:#fff;
+        }
+        .copy{
+            position: absolute;
+            bottom:0px;
+            color:#fff;
+            text-align: justify;
+            right:40%;
+            left: 40%;
+
+        }
+    .right-column {
+    flex-direction: column;
+    position: absolute;
+    right:100px;
+    top:7vh;
+    color: #fff; 
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+
+}
+
+.green-row {
+     flex: 7; 
+     height: fit-content;
+    width: 80%;/* Takes 70% of screen width */
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);    
+     }
+
+    
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    position: relative;
+}
+.content h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.content p {
+    margin-bottom: 20px;
+    margin-top: 7px;
+   
+}
+
+.red-container {
+     flex: 2; 
+     height: fit-content;
+     margin-right: 30px;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);    
+
+}
+
+.blue-container {
+    position: relative;
+    flex: 5; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);    
+    height: fit-content;
+}
+.map-container {
+    position: relative;
+}
+
+.map-container iframe {
+    width: 30%;
+    height: 30%;
+    top: 0;
+    left: 40px;
+}
+
+
+    .container1 {
+    flex: 1; /* Adjust the flex value as needed */
+    height: fit-content;
+    margin-right: 30px; /* Adjust margins as needed */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+    flex: 1; /* Adjust the flex value as needed */
+    height: fit-content;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.content h5 {
+    font-size: 15px;
+}
+.content ul{
+      margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ 
+.comment{
+width: 70%;
+    margin: 0 auto;
+}
+.comment-section {
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+
+
+}
+
+.comment h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.comment-box {
+    margin-top: 20px;
+    display: flex;
+    width: 60%;
+    position: relative; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+#comment {
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.comment-box button {
+    background-color: rgb(19, 20, 57);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-box button:hover {
+    background-color: #333;
+} 
+
+.container-comment {
+    border: 1px solid black;
+    display: flex;
+    width: 70%;
+    height: 200px;
+    align-items: center;
+    padding: 10px;
+    width: 300px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.commentview{
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+}
+
+
+.commentview button{
+    background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            outline: none; 
+}
+.commentview i{
+color:black;
+font-size: 40px;
+}

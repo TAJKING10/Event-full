@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+        <link rel="stylesheet" href="page1.css">
+        <script src="page1.js"></script>
+
+
+    <title>Eventful</title>
+   
+    
+</head>
+
+<body>
+<header>
+        <h1 class="title">
+<i class="fa-solid fa-ticket"></i>            Eventful</h1>
+    <nav>
+    <ul>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    </nav>
+    <p class="p1">
+        Are you ready to experience something extraordinary?
+    </p>
+<div class="search-container">
+    <form action="/search" method="get">
+        <input type="text" id="search" name="search" placeholder="Search by event">
+        <select name="time" >
+            <option value="">All Times</option>
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+        </select>
+        <select name="place">
+            <option value="">All Places</option>
+            <option value="city">City</option>
+            <option value="suburb">Suburb</option>
+            <option value="village">Village</option>
+        </select>
+    </form>
+</div>
+
+
+    
+</header>
+<main>
+    <section class="section1">
+   <h1>About Eventful</h1> 
+    <p>
+        Welcome to Eventful, an esteemed online platform dedicated to the preservation and celebration of traditional events
+        that embody the essence of cultural heritage. Our platform serves as a dignified gateway to a refined collection of
+        traditional gatherings, offering a harmonious blend of time-honored customs and contemporary revelry.
+    </p>
+    <div id="image-container">
+        <img src="events/event1.jpg" id="image" >
+
+        <button class="invisible-button" onclick="changeImage()">
+            <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+    </div>
+</section>
+<section class="section2">
+    <h1> Featured Events</h1>
+
+    <div class="crow">
+        <div class="container">
+            <img src="feature events/Jazz.jpg" alt="Example Image" class="image">
+            <div class="row">
+                <div class="left-text">February 20th 2023</div>
+                <div class="right-text">10 PM to 12 PM</div>
+            </div>
+            <h3>Dubai International Jazz Festival</h3>
+        </div>
+        <div class="container">
+            <img src="feature events/oman.jpg" alt="Example Image" class="image">
+            <div class="row">
+                <div class="left-text">February 20th 2023</div>
+                <div class="right-text">10 PM to 12 PM</div>
+            </div>
+            <h3>Muscat Festival</h3>
+        </div>
+        <div class="container">
+            <img src="feature events/petra.jpg" alt="Example Image" class="image">
+            <div class="row">
+                <div class="left-text">February 20th 2023</div>
+                <div class="right-text">10 PM to 12 PM</div>
+            </div>
+            <h3>Petra International Music Festival</h3>
+        </div>
+    </div>
+
+
+    <div class="crow">
+        <div class="container">
+            <img src="feature events/mdl.jpg" alt="Example Image" class="image">
+            <div class="row">
+                <div class="left-text">February 20th 2023</div>
+                <div class="right-text">10 PM to 12 PM</div>
+            </div>
+            <h3>MDL Beast Festival</h3>
+        </div>
+        <div class="container">
+            <img src="feature events/food.jpg" alt="Example Image" class="image">
+            <div class="row">
+                <div class="left-text">February 20th 2023</div>
+                <div class="right-text">10 PM to 12 PM</div>
+            </div>
+            <h3>Qatar International Food Festival</h3>
+        </div>
+        <div class="container">
+            <img src="feature events/Sandbox.jpg" alt="Example Image" class="image">
+            <div class="row">
+                <div class="left-text">February 20th 2023</div>
+                <div class="right-text">10 PM to 12 PM</div>
+            </div>
+            <h3>sandbox music festival</h3>
+        </div>
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <footer>
+<h1 class="f_title">
+    <i class="fa-solid fa-ticket"></i> Eventful
+</h1>
+        <p class="copy">&copy; 2024 Made by Ayah Hussain</p>
+        <div class="right-column">
+            <p><b>Email:</b>support@eventful.co</p>
+            <p><b>Phone Number:</b>+954 4875 355</p>
+            <p><b>Address:</b>1717, West Street, New York City</p>
+        </div>
+
+    </footer>
+
+    
+
+</main>
+
+</body>
+
+</html>
